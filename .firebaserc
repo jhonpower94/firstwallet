@@ -3,7 +3,8 @@
     "default": "cryptokneit",
     "ck": "cryptokneit",
     "tg": "trustgain-ad16c",
-    "cb": "cambit-54153"
+    "cb": "cambit-54153",
+    "sc": "satocoin-46f61"
   },
   "targets": {
     "cryptokneit": {
@@ -17,6 +18,13 @@
       "hosting": {
         "cb": [
           "cambitaccount"
+        ]
+      }
+    },
+    "satocoin-46f61": {
+      "hosting": {
+        "sc": [
+          "satocoinaccount"
         ]
       }
     }
